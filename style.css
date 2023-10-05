@@ -1,0 +1,143 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #212121;
+}
+#HeaderSection {
+  height: 86px;
+  margin: -9px;
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background-color: black;
+}
+#navbarSupportedContent ul li a,
+.nav-item {
+  color: white;
+}
+.collapse ul {
+  margin-left: 117px;
+  gap: 2px;
+}
+.collapse .ri8{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar-brand img {
+  width: 245px;
+}
+.nav-item img {
+  width: 30px;
+  height: 20px;
+  object-fit: cover;
+}
+.ri8 li {
+  gap: 10px;
+  margin: auto;
+}
+#BodySection img {
+  width: 100%;
+  height: 100%;
+}
+#NewsCollection {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+#NewsSection .NM,#popularTags h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #212121;
+  color: white;
+  margin: 0;
+  font-weight: bolder;
+  font-size: 24px;
+  height: 60px;
+}
+.News {
+  width: 25%;
+  overflow: hidden;
+}
+.News img {
+  width: 100%;
+}
+.News img:hover{
+  transition:all ease 2s;
+  transform: scale(1.1);
+  
+}
+
+#NewsCollection .News h1 {
+  font-size: 15px;
+  position: absolute;
+  width: 22%;
+  bottom: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: justify;
+  margin: 0px 10px;
+}
+#secondaryNavbar,#ridesNavbar,#apparelNavbar,#accessoriesNavbar,#locateNavbar{
+  display: flex;
+  background-color:#212121;
+  color:white;
+  align-items: center;
+  padding:25px 0px;
+}
+#Motocycles h3,#rides h3,#apparel h3,#accessories h3,#locate h3{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Varta', sans-serif;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+}
+#options ul
+{
+  display: flex;
+  list-style: none;
+  gap:20px;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+#secondaryNavbar #options span{
+  margin-left:15px;
+}
+#options li:hover{
+  color:#d1291c;
+}
+#LocateImg
+{
+  width: 100%;
+  height:70vh;
+}
+#AccessoriesImg,#ApparelImg,#MotorImg,#RidesImg{
+  width: 100%;
+  height:80vh;
+  
+}
+#popularTags h1{
+  font-family: 'Varta', sans-serif;
+  font-weight: bolder;
+}
+#oneRide,#pureCruising,#rideMania,#classic{
+  width:24.75%;
+  display:inline-block;
+  position:relative;
+}
+#popularTags h2{
+  color: white;
+  position: absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+}
+#popularTags img{
+  width:100%;
+  height:400px;
+}
